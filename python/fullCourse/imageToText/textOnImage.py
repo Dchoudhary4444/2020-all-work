@@ -5,10 +5,10 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 #img = np.zeros((512,512,3), np.uint8)
 img = cv2.imread("sample4.png") 
 f=open("recognized.txt","r");
-for x in r:
+for x in f:
 	print(x)
 
-//cv2.putText(img,'Hack Projects',(50,99), font, 1,(255,255,255),2)
+#cv2.putText(img,'Hack Projects',(50,99), font, 1,(255,255,255),2)
 #Display the image
 cv2.imshow("img",img)
 
